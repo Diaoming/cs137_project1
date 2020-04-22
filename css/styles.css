@@ -57,7 +57,7 @@ div.main_p1{
 div.main_section{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 75%;
     border: 3px darkgray;
     padding: 10px;
     text-align: center;
@@ -71,6 +71,7 @@ div.main_item{
     text-align: center;
     background-color:  rgb(96, 96, 96);
     background-size: 100%;
+    height: 350px;
 }
 img.detail
 {
@@ -91,6 +92,21 @@ img.main_thumb
     height: 150px;  
 }
 table.main{
+    table-layout: fixed;
     text-align: center;
     color: #FFFFFF;
+}
+button.simple {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+a{
+    color: white;
 }
