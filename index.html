@@ -1,18 +1,24 @@
 <head>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+<script src="index.js"></script>
 
 <div class="main_h1">
-<h1>Frontline Veteran Premium Shop</h1>
+<h1>"Frontline Veteran" Models</h1>
 </div>
 
-<div class="main_p1">
-<b>Frontline Veteran game introduction</b><br>
-<p>Frontline Veteran is a world war 2 themed RTS/FPS hybrid game. Players can control 
-    various types of vehicles and weapons in the first-person mode as well as playing 
-    as a commander in god view. The game provides immersive world war 2 with realistic 
-    game mechanics, including real ballistic simulation and armor systems. </p>
-</div>    
+<div class="main_p1" id="intro">
+    <b>Frontline Veteran game introduction</b><br>
+    <p>Frontline Veteran is a world war 2 themed RTS/FPS hybrid game. Players can control 
+        various types of vehicles and weapons in the first-person mode as well as playing 
+        as a commander in god view. The game provides immersive world war 2 with realistic 
+        game mechanics, including real ballistic simulation and armor systems. </p>
+    <img src="./images/new_items.jpg" alt="new_items" width="800" height="600">    
+</div>   
+<div class="main_h2">
+    <button id="hideButton" onclick="hideIntro()">Hide Introduction</button>
+</div> 
+
 
 <hr>
 <div class="main_h1">
@@ -21,11 +27,17 @@
 <div class="main_section">
     <table style="width:100%" class="main" border="1px">
         <tr>
-            <th><div class="main_item">
-                Kriegmarine Squad
-                <img class="main_thumb" src="./images/tank_ph.jpg" alt="image">
-                9.99USD
-            </div></th>
+            <th>
+                <div class="main_item">
+                    <a href="./pages/page1.html">
+                        Kriegmarine Squad
+                        <img class="main_thumb" src="./images/tank_ph.jpg" alt="image">
+                    </a>    
+                    9.99USD<br>
+                    This is a model of xxx, including xxx.
+                </div>
+                
+            </th>
             <th><div class="main_item">
                 Kriegmarine Squad
                 <img class="main_thumb" src="./images/tank_ph.jpg" alt="image">
